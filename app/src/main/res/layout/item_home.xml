@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_home_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_home_image"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            tools:background="#ccc" />
+
+        <TextView
+            android:id="@+id/item_home_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/item_home_image"
+            android:background="#212121"
+            android:maxLines="2"
+            android:padding="8dp"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            tools:text="Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet" />
+
+        <TextView
+            android:id="@+id/item_home_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/item_home_image"
+            android:layout_marginTop="4dp"
+            tools:text="Description lorem ipsum dolor sit amet"
+
+            />
+
+
+        <TextView
+            android:id="@+id/item_home_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/item_home_description"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorPrimaryDark"
+            tools:text="BBC News" />
+
+        <TextView
+            android:id="@+id/item_home_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/item_home_source"
+            android:layout_alignParentRight="true"
+            tools:text="2018-01-18" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
+

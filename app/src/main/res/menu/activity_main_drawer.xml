@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="(Home) News Language Preferences ">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/main_drawer_id"
+                    android:icon="@drawable/ic_flag_indonesia"
+                    android:title="Bahasa Indonesia" />
+                <item
+                    android:id="@+id/main_drawer_us"
+                    android:icon="@drawable/ic_flag_english"
+                    android:title="English" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

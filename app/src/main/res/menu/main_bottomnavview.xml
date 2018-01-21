@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_nav_home"
+        android:icon="@drawable/ic_home_32dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/main_nav_explore"
+        android:icon="@drawable/ic_explore_32dp"
+        android:title="Explore" />
+</menu>
